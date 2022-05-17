@@ -1,0 +1,180 @@
+.main-content {
+  background-color: black;
+}
+
+#nav {
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  padding: 8pt;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+}
+#nav .navbar-brand #nav_logo {
+  height: 64px;
+}
+#nav .navbar-collapse .navbar-nav {
+  width: 100%;
+  height: 100%;
+}
+#nav .navbar-collapse .navbar-nav .nav-item {
+  padding: 0 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: black;
+}
+#nav .navbar-actions .row {
+  width: 100%;
+  height: 100%;
+}
+#nav .navbar-actions .row #nav_search {
+  padding: 12px;
+  margin-right: 16px;
+  max-width: 200px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #888888;
+}
+#nav .navbar-actions .row #nav_search #nav_search-input {
+  width: 100%;
+  border: none;
+  background: none;
+}
+#nav .navbar-actions .row #nav_search #nav_search-button {
+  border: none;
+  background: none;
+}
+#nav .navbar-actions .row .btn-icon {
+  padding: 12px;
+  border: none;
+  background: none;
+}
+#nav .navbar-actions .row .btn-icon a {
+  color: black;
+}
+
+#footer {
+  background-color: #f1f1f1;
+}
+#footer .footer-phone {
+  background-color: #dfdfdf;
+  padding: 24px;
+}
+#footer .footer-phone .footer-phone_icon {
+  background-color: black;
+  border-radius: 100%;
+  padding: 8px;
+  color: #dfdfdf;
+  margin-right: 12px;
+}
+#footer .footer-phone .footer-phone_label {
+  margin-right: 8px;
+}
+#footer .footer-phone .footer-phone_number {
+  color: orangered;
+  font-weight: bold;
+}
+#footer .footer-intro {
+  width: 100%;
+  padding: 16px;
+}
+#footer .footer-intro .footer-heading {
+  text-align: center;
+}
+#footer .footer-intro .footer-text {
+  text-align: center;
+}
+#footer .footer-heading {
+  padding: 12px 0;
+  font-size: 16pt;
+  font-weight: bold;
+}
+#footer .footer-text {
+  line-height: 1.5;
+}
+#footer .footer-contact {
+  padding: 32px 0 24px;
+}
+#footer .footer-contact li {
+  line-height: 1.5;
+}
+#footer .footer-contact .footer-contact_header {
+  font-weight: 500;
+}
+#footer .footer-contact .footer-contact_social-icon {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  margin: 0 12px;
+  border: 1px solid black;
+  border-radius: 100%;
+  color: black;
+}
+#footer .footer-contact .footer-contact_fanpage-container {
+  width: 100%;
+  height: 160px;
+  background-color: black;
+}
+#footer .footer-copyright {
+  height: 32px;
+  padding: 24px 0 48px;
+  border-top: 1px solid #dfdfdf;
+}
+#footer .footer-copyright .footer-copyright_content {
+  width: 100%;
+  text-align: center;
+}
+
+.about-content {
+  padding: 32px;
+}
+
+.about-image {
+  max-width: 100vw;
+}
+
+.about-header {
+  padding: 16pt 0;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.about-text {
+  text-align: justify;
+  line-height: 1.5;
+  padding-bottom: 12pt;
+}
+
+.body-model {
+  background-image: url(../asset/img/logo/Glass\ Effect\ Login\ Page\ -\ Blue.png);
+  position: relative;
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+.form-input-model {
+  margin-top: 200px;
+  width: 690px;
+  height: 690px;
+  padding: 90px;
+}
+
+.form-control-input {
+  padding: 12px;
+  margin-right: 16px;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #888888;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
